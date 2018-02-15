@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Crescent base functionality
+ */
+
+module_load_include("inc", "crescent_base", "includes/crescent_base.blocks");
+
+
+
+/**
+ * Implements hook_theme().
+ */
+function crescent_base_theme() {
+  $module_path = drupal_get_path('module', 'crescent_base');
+  $base = array(
+    'path' => $module_path . "/templates",
+  );
+
+  return array(
+    'crescent_base_enviro_edge_block' => $base + array(
+      'variables' => array(
+        'block' => NULL,
+      ),
+      'template' => 'blocks/crescent_base_enviro_edge_block',
+    ),
+  );
+}
+
+/**
+ * Implements hook_admin_menu_output_alter().
+ */
+function crescent_base_admin_menu_output_alter(&$content) {
+  if (user_access('edit any management_team content') && isset($content['menu']['node/add'])) {
+    $team_member = array(
+      '#title' => t('Add Team Member'),
+      '#href' => 'field-collection/field-mt-items/add/node/6',
+      '#options' => array(
+        'query' => array('destination'=>'node/7?qt=1'),
+      ),
+    );
+    $content['menu']['node/add']['node/add/custom-team-member'] = $team_member;
+  }
+}

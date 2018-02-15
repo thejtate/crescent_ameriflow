@@ -1,0 +1,47 @@
+.content-wrapper {
+  @include clearfix();
+
+  &.with-sidebar {
+
+    .sidebar {
+      display: block;
+    }
+  }
+
+  .block-system {
+    width: 100%;
+    margin-bottom: 90px;
+
+    p {
+      margin: 0 0 25px;
+    }
+  }
+
+  ul.quicktabs-tabs li {
+    white-space: normal;
+  }
+
+  .cols {
+    @include clearfix();
+    display: table;
+
+    &.style-a {
+      border-top: 1px solid #c0c0c0;
+
+      .col {
+        border-left: 1px solid #c0c0c0;
+
+        &:first-child {
+          border-left: none;
+        }
+      }
+    }
+
+    .col {
+      position: relative;
+      padding: 15px 0 15px 0;
+
+    }
+  }
+
+}

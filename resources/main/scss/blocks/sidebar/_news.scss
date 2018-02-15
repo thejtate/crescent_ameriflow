@@ -1,0 +1,88 @@
+.sidebar {
+  margin-bottom: 10px;
+  float: right;
+  width: 100%;
+  display: none;
+  padding-left: 50px;
+
+  h2 {
+    border-bottom: 5px solid #ef761f ;
+    padding-bottom: 30px;
+  }
+
+  .views-row {
+    margin-bottom: 20px;
+  }
+
+  .menu li{
+    @include transition(all .3s);
+
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+
+
+  .news {
+    @include clearfix();
+
+    &.cols-three .col {
+      width: 300px;
+      margin-left: 37px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+
+    .hd {
+      padding-bottom: 8px;
+      font-weight: bold;
+      margin-bottom: 24px;
+      font-family: $avenir-ultra-light-italic;
+    }
+
+    h3 {
+      line-height: 1.2;
+      font-family: $avenir-meidum-italic;
+      margin: 0 0 20px;
+      font-size: 30px;
+
+      a {
+        font-family: $avenir-meidum-italic;
+        text-decoration: none;
+        color: #3c3c3c;
+
+        &:hover {
+          opacity: .7;
+        }
+      }
+    }
+
+    .date {
+      font-family: $avenir-meidum-italic;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      font-family: $avenir-bold;
+      color: #F05133;
+      @include transition(opacity .3s);
+
+      &:hover {
+        opacity: .7;
+      }
+    }
+
+    p {
+      margin: 0 0 10px;
+      font-family: $avenir-meidum;
+    }
+
+    img {
+      display: block;
+      margin-bottom: 15px;
+    }
+  }
+}

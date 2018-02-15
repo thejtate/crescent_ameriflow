@@ -1,0 +1,115 @@
+.page-careers {
+
+  .block-system {
+
+    .title {
+
+      &:before {
+        bottom: -198px;
+      }
+
+      &:after {
+        bottom: -198px;
+      }
+    }
+
+    h5 {
+      margin: 60px 0 0 0;
+      border-bottom: 1px solid #c0c0c0;
+      padding-bottom: 40px;
+      font-size: 36px;
+      font-family: $museoslab-100;
+      text-align: center;
+      color: #353535;
+      text-transform: uppercase;
+    }
+
+    .text-inner {
+      text-align: center;
+      margin: 40px 0 40px 0;
+    }
+
+
+    .quicktabs-wrapper {
+
+      .quicktabs-tabs {
+
+        a {
+          position: relative;
+        }
+
+        .quicktabs-tabs-item-1 {
+
+          a {
+
+            &:after {
+
+              @include oneline-sprite-box($icons, careers-tab-1);
+              margin-left: -33px;
+            }
+          }
+
+        }
+
+        .quicktabs-tabs-item-2 {
+
+          a {
+
+            &:after {
+
+              @include oneline-sprite-box($icons, careers-tab-2);
+              margin-left: -33px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .form-careers {
+
+    .form-item {
+      margin: 10px 0;
+    }
+
+    .form-wrapper {
+      border: none;
+      padding: 0;
+      margin: 0;
+
+      label {
+        font-family: $museo-700;
+        margin-bottom: 10px;
+      }
+
+      .webform-component-textfield, .webform-component-email {
+        display: inline-block;
+
+      }
+    }
+
+    .captcha {
+      padding: 25px 0 0 0;
+
+      .funnel-reload-captcha {
+        margin-bottom: 15px;
+        display: inline-block;
+      }
+
+      img {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .form-item-captcha-response {
+        display: inline-block;
+        margin: 0 0 0 10px;
+      }
+
+      .form-text {
+        width: 105px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

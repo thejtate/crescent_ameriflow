@@ -1,0 +1,17 @@
+.col-operations {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  a {
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #E8E8E7;
+    padding: 2px 6px;
+    border: 1px solid #848484;
+    margin-right: 5px;
+    font-weight: bold;
+  }
+}

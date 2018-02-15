@@ -1,0 +1,42 @@
+.page-about {
+
+  .block-system {
+
+    #quicktabs-who_we_are .quicktabs-tabs {
+      li {
+        max-width: 180px;
+        width: 180px;
+        margin: 0;
+      }
+    }
+
+    #quicktabs-tabpage-who_we_are-1 {
+
+      .content {
+
+        .img {
+          float: left;
+        }
+
+        .text-desc {
+          margin-left: 240px;
+        }
+      }
+    }
+
+    .text {
+      width: 750px;
+      margin: 0 auto;
+      padding: 30px 0 60px 0;
+    }
+
+    .text-inner ul {
+      padding-left: 100px;
+    }
+
+    h4 {
+      width: 700px;
+    }
+
+  }
+}

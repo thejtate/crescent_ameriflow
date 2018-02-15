@@ -1,0 +1,17 @@
+.page-user {
+
+  .inner-wrapper {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    @include transform(translate(-50%, -50%));
+  }
+
+  form {
+    text-align: center;
+
+    label {
+      font-size: 22px;
+    }
+  }
+}

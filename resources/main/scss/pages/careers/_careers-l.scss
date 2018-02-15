@@ -1,0 +1,125 @@
+.page-careers {
+
+  .block-system {
+
+    .title {
+
+      &:before {
+        bottom: -198px;
+      }
+
+      &:after {
+        bottom: -198px;
+      }
+    }
+
+    h5 {
+      margin: 60px 0 0 0;
+      border-bottom: 1px solid #c0c0c0;
+      padding-bottom: 40px;
+      font-size: 36px;
+      font-family: $museoslab-100;
+      text-align: center;
+      color: #353535;
+      text-transform: uppercase;
+    }
+
+    .text-inner {
+      text-align: center;
+      margin: 40px 0 40px 0;
+    }
+
+    .cols-three {
+
+      .col {
+        width: 33.3333%;
+        text-align: center;
+        padding: 75px 0 60px 0;
+        color: #7d7d7d;
+        font-family: $museo-300;
+        border-left: 1px solid #cccccc;
+
+        .btn-wrapp {
+          padding-top: 40px;
+        }
+
+        h4 {
+          color: #7d7d7d;
+        }
+
+        &:first-child {
+          border-left: none;
+        }
+
+        h4 {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .quicktabs-wrapper {
+
+      .quicktabs-tabs {
+        padding: 60px 90px 0 90px;
+
+        a {
+          position: relative;
+        }
+
+        .quicktabs-tabs-item-1 {
+
+          a {
+
+            &:after {
+              @include pseudo-block($top: -85px, $left: 50%);
+              @include oneline-sprite-box($icons, careers-tab-1);
+              margin-left: -33px;
+            }
+          }
+
+          &.active a:after {
+            @include oneline-sprite-box($icons, careers-tab-1-a);
+          }
+
+        }
+
+        .quicktabs-tabs-item-2 {
+
+          a {
+            &:after {
+              @include pseudo-block($top: -85px, $left: 50%);
+              @include oneline-sprite-box($icons, careers-tab-2);
+              margin-left: -33px;
+            }
+          }
+
+          &.active a:after {
+            @include oneline-sprite-box($icons, careers-tab-2-a);
+          }
+        }
+
+      }
+    }
+  }
+
+  .form-careers {
+
+    .form-item {
+      margin: 10px 0;
+    }
+
+    .form-wrapper {
+
+      .webform-component-textfield, .webform-component-email {
+        width: 300px;
+        display: inline-block;
+        margin-left: 20px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+}

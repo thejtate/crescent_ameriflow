@@ -1,0 +1,625 @@
+.page-flowback {
+
+  .cols {
+    width: 100%;
+    margin: 0 auto 28px auto;
+
+    .col {
+      vertical-align: top;
+    }
+  }
+
+  .table-tech {
+
+    table {
+      width: 100%;
+    }
+
+    h6 {
+      font-size: 16px;
+      font-family: $avenir-meidum-italic;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+
+    tbody {
+      border: none;
+    }
+
+    tr:nth-child(odd) {
+      background: #f2f2f2;
+    }
+
+    td {
+      padding: 4px 0;
+      font-size: 12px;
+      font-family: $avenir-meidum;
+
+      &:first-child {
+        color: #333333;
+        font-family: $avenir-bold;
+        padding: 4px;
+      }
+
+      &:nth-child(2), &:nth-child(5) {
+        padding-left: 6px;
+      }
+    }
+  }
+
+  .node-flowback {
+    padding: 0;
+
+    .flexslider{
+      margin-bottom: 40px;
+    }
+
+    a:after {
+      @include transform(translateX(-50%));
+    }
+
+    span.title-nav {
+
+      #quicktabs-tab-flowback_main-0:after {
+        @include pseudo-block($left: 26px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-1-a-s);
+      }
+
+      #quicktabs-tab-flowback_main-1:after {
+        @include pseudo-block($left: 26px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-2-a-s);
+      }
+
+      #quicktabs-tab-flowback_main-2:after {
+        @include pseudo-block($left: 26px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-3-a-s);
+      }
+
+      #quicktabs-tab-flowback_main-3:after {
+        @include pseudo-block($left: 26px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-4-a-s);
+      }
+
+      #quicktabs-tab-flowback_main-4:after {
+        @include pseudo-block($left: 29px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-5-a-s);
+      }
+
+      #quicktabs-tab-flowback_main-5:after {
+        @include pseudo-block($left: 29px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-6-a-s);
+      }
+
+      #quicktabs-tab-flowback_main-6:after {
+        @include pseudo-block($left: 29px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-7-a-s);
+      }
+
+      #quicktabs-tab-flowback_main-7:after {
+        @include pseudo-block($left: 29px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-8-a-s);
+      }
+    }
+
+    .quicktabs-tabs {
+
+      .quicktabs-tabs-item-1 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 0px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-1-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-2 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 0px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-2-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-3 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 0px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-3-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-4 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 0px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-4-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-5 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 0px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-5-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-6 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 0px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-6-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-7 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 0px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-7-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-8 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 0px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-8-s);
+          }
+        }
+      }
+    }
+  }
+
+  .node-flowback-drill-out {
+    padding: 20px 0 0 0;
+
+    .content {
+      margin-bottom: 50px !important;
+    }
+
+    .flexslider .slides > li {
+      max-height: 167px;
+    }
+
+    .left-part {
+      margin-bottom: 15px;
+    }
+
+    span.title-nav {
+
+      #quicktabs-tab-dril-0:after {
+        @include pseudo-block($left: 35px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-2-a-s);
+      }
+
+      #quicktabs-tab-dril-1:after {
+        @include pseudo-block( $left: 35px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-10-a-s);
+      }
+
+      #quicktabs-tab-dril-2:after {
+        @include pseudo-block($left: 35px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-3-a-s);
+      }
+
+      #quicktabs-tab-dril-3:after {
+        @include pseudo-block($left: 35px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-5-a-s);
+      }
+
+      #quicktabs-tab-dril-4:after {
+        @include pseudo-block($left: 35px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-6-a-s);
+      }
+
+      #quicktabs-tab-dril-5:after {
+        @include pseudo-block($left: 35px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-7-a-s);
+      }
+
+      #quicktabs-tab-dril-6:after {
+        @include pseudo-block($left: 35px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-7-a-s);
+      }
+
+      #quicktabs-tab-dril-7:after {
+        @include pseudo-block($left: 35px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-12-a-s);
+      }
+    }
+
+    .quicktabs-tabs {
+
+      .quicktabs-tabs-item-1 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 10px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-2-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-2 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 10px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-10-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-3 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 10px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-3-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-4 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 10px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-5-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-5 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 10px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-6-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-6 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 10px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-7-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-7 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 10px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-7-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-8 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 10px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-12-s);
+          }
+        }
+      }
+    }
+  }
+
+  .node-flowback-support {
+
+    .content {
+      margin-bottom: 60px !important;
+    }
+
+    .flexslider .slides > li {
+      max-height: 187px;
+    }
+
+    .left-part {
+      margin-bottom: 30px;
+    }
+
+    span.title-nav {
+
+      #quicktabs-tab-flowback-0:after {
+        @include pseudo-block($left: 36px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-2-a-s);
+      }
+
+      #quicktabs-tab-flowback-1:after {
+        @include pseudo-block($left: 36px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-3-a-s);
+      }
+
+      #quicktabs-tab-flowback-2:after {
+        @include pseudo-block($left: 36px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-4-a-s);
+      }
+
+      #quicktabs-tab-flowback-3:after {
+        @include pseudo-block($left: 36px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-9-a-s);
+      }
+    }
+
+    .quicktabs-tabs {
+
+      .quicktabs-tabs-item-1 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 8px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-2-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-2 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 8px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-3-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-3 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 8px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-4-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-4 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 8px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-9-s);
+          }
+        }
+      }
+    }
+  }
+
+  .node-well-testing {
+
+    .content {
+      margin-bottom: 60px !important;
+    }
+
+    .flexslider .slides > li {
+      max-height: 181px;
+    }
+
+    .left-part {
+      margin-bottom: 30px;
+    }
+
+    span.title-nav {
+
+      #quicktabs-tab-well_testing-0:after {
+        @include pseudo-block($left: 36px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-15-a-s);
+      }
+    }
+
+    .quicktabs-tabs {
+
+      .quicktabs-tabs-item-1 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 8px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-15-s);
+          }
+        }
+      }
+    }
+  }
+
+  .node-production {
+
+    .content {
+      margin-bottom: 60px !important;
+    }
+
+    .flexslider .slides > li {
+      max-height: 187px;
+    }
+
+    .left-part {
+      margin-bottom: 30px;
+    }
+
+    span.title-nav {
+
+      #quicktabs-tab-production-0:after {
+        @include pseudo-block($left: 36px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-13-a-s);
+      }
+
+      #quicktabs-tab-production-1:after {
+        @include pseudo-block($left: 36px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-3-a-s);
+      }
+
+      #quicktabs-tab-production-2:after {
+        @include pseudo-block($left: 36px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-2-a-s);
+      }
+
+      #quicktabs-tab-production-3:after {
+        @include pseudo-block($left: 36px);
+        @include oneline-sprite-box($icons, flowback-tab-v2-14-a-s);
+      }
+    }
+
+    .quicktabs-tabs {
+
+      .quicktabs-tabs-item-1 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 8px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-13-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-2 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 8px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-3-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-3 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 8px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-2-s);
+          }
+        }
+      }
+
+      .quicktabs-tabs-item-4 {
+
+        a {
+          &:after {
+            @include pseudo-block($left: 8px);
+            @include oneline-sprite-box($icons, flowback-tab-v2-14-s);
+          }
+        }
+      }
+    }
+  }
+
+  .block-system .title {
+
+    &:after {
+      bottom: -503px;
+    }
+
+    &:before {
+      bottom: -503px;
+    }
+  }
+
+  h5 {
+    margin: 30px 0 15px 0;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-family: $museo-300;
+    text-align: center;
+    color: #353535;
+  }
+
+  .text-inner {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  h6 {
+    font-family: $museo-700;
+    font-size: 18px;
+    margin: 0;
+    color: #7d7d7d;
+  }
+
+  .text {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .field-items .text {
+
+    &.text-full {
+
+      .left-part {
+        width: 100% !important;
+      }
+
+      .right-part {
+        width: 100%;
+      }
+    }
+
+    &.text-image {
+
+      .left-part {
+        width: 100% !important;
+      }
+
+      .right-part {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+        img {
+          width: 100%;
+          max-width: 380px;
+        }
+      }
+    }
+  }
+
+  .text {
+    text-align: left;
+
+    &.text-full {
+
+      .left-part {
+        width: 100% !important;
+      }
+
+      .right-part {
+        width: 100%;
+      }
+    }
+
+    &.text-slider {
+
+      .left-part {
+        width: 100% px !important;
+      }
+
+      .right-part {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}

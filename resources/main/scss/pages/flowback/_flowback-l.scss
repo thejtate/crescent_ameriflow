@@ -1,0 +1,566 @@
+.page-flowback {
+
+  .cols {
+    width: 100%;
+    margin: 0;
+
+    .col {
+      vertical-align: top;
+
+      &.col-1 {
+        width: 440px;
+      }
+
+      &.col-2 {
+        width: 500px;
+        padding-left: 35px;
+      }
+    }
+  }
+
+  .table-tech {
+
+    table {
+      width: 100%;
+    }
+
+    h6 {
+      font-size: 21px;
+      font-family: $avenir-meidum-italic;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+
+    tbody {
+      border: none;
+    }
+
+    tr:nth-child(odd) {
+      background: #f2f2f2;
+    }
+
+    td {
+      padding: 4px 0;
+      min-width: 150px;
+      font-size: 16px;
+      font-family: $avenir-meidum;
+
+      &:first-child {
+        color: #333333;
+        font-family: $avenir-bold;
+        padding: 4px 0 4px 20px;
+      }
+
+      &:nth-child(2), &:nth-child(5) {
+        padding-left: 16px;
+      }
+    }
+  }
+
+  .block-system .title {
+
+    &:after {
+      bottom: -503px;
+    }
+
+    &:before {
+      bottom: -503px;
+    }
+  }
+
+  .node-flowback-support .bg {
+    min-height: 745px !important;
+  }
+
+  .node-well-testing .bg {
+    min-height: 715px !important;
+  }
+
+  .block-system .content .node-flowback-support .content .right-part, .block-system .content .node-well-testing .content .right-part {
+    padding-bottom: 25px;
+  }
+
+  .quicktabs-tabs a {
+    font-size: 13px;
+    height: 36px;
+  }
+
+  .node-flowback .quicktabs-wrapper .quicktabs-tabs {
+    padding: 80px 0 0 0;
+
+    a:after {
+      @include transform(translateX(-50%));
+    }
+
+    .quicktabs-tabs-item-1 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-1);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-1-a);
+      }
+    }
+    .quicktabs-tabs-item-2 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-2);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-2-a);
+      }
+    }
+
+    .quicktabs-tabs-item-3 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-3);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-3-a);
+      }
+    }
+
+    .quicktabs-tabs-item-4 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-4);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-4-a);
+      }
+    }
+
+    .quicktabs-tabs-item-5 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-5);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-5-a);
+      }
+    }
+
+    .quicktabs-tabs-item-6 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-6);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-6-a);
+      }
+    }
+
+    .quicktabs-tabs-item-7 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-7);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-7-a);
+      }
+    }
+
+    .quicktabs-tabs-item-8 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -43px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-8);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-8-a);
+      }
+    }
+
+  }
+
+  .node-flowback-support .quicktabs-wrapper .quicktabs-tabs {
+    padding: 80px 0 0 0;
+
+    .quicktabs-tabs-item-1 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-2);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-2-a);
+      }
+    }
+
+    .quicktabs-tabs-item-2 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-3);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-3-a);
+      }
+    }
+
+    .quicktabs-tabs-item-3 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-4);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-4-a);
+      }
+    }
+
+    .quicktabs-tabs-item-4 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-9);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-9-a);
+      }
+    }
+  }
+
+  .node-flowback-drill-out .quicktabs-wrapper .quicktabs-tabs {
+    padding: 60px 0 0 0;
+
+    .quicktabs-tabs-item-1 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-2);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-2-a);
+      }
+    }
+
+    .quicktabs-tabs-item-2 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-10);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-10-a);
+      }
+    }
+
+    .quicktabs-tabs-item-3 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-3);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-3-a);
+      }
+    }
+
+    .quicktabs-tabs-item-4 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-5);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-5-a);
+      }
+    }
+
+    .quicktabs-tabs-item-5 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-6);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-6-a);
+      }
+    }
+
+    .quicktabs-tabs-item-6 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-7);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-7-a);
+      }
+    }
+
+    .quicktabs-tabs-item-7 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-7);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-7-a);
+      }
+    }
+
+    .quicktabs-tabs-item-8 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -45px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-12);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-12-a);
+      }
+    }
+  }
+
+  .node-production .quicktabs-wrapper .quicktabs-tabs {
+    padding: 80px 0 0 0;
+
+    li {
+      margin: 0 46px 0 0;
+    }
+
+    a:after {
+      @include transform(translateX(-50%));
+    }
+
+    .quicktabs-tabs-item-1 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-13);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-13-a);
+      }
+    }
+
+    .quicktabs-tabs-item-2 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-3);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-3-a);
+      }
+    }
+
+    .quicktabs-tabs-item-3 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -45px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-2);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-2-a);
+      }
+    }
+
+    .quicktabs-tabs-item-4 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -30px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-14);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-14-a);
+      }
+    }
+  }
+
+  .node-well-testing .quicktabs-wrapper .quicktabs-tabs {
+    padding: 80px 0 0 0;
+
+    li {
+      margin: 0 50px 0 0;
+    }
+
+    .quicktabs-tabs-item-1 {
+
+      a {
+        &:after {
+          @include pseudo-block($top: -50px, $left: 50%);
+          @include oneline-sprite-box($icons, flowback-tab-v2-15);
+        }
+      }
+
+      &.active a:after {
+        @include oneline-sprite-box($icons, flowback-tab-v2-15-a);
+      }
+    }
+  }
+
+  .node-flowback-drill-out {
+
+    .bg {
+      min-height: 700px;
+    }
+
+    .text-slider {
+      text-align: center;
+    }
+  }
+
+  h5 {
+    margin: 60px 0 40px 0;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-family: $museo-300;
+    text-align: center;
+    color: #353535;
+  }
+
+  .text-inner {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  h6 {
+    font-family: $museo-700;
+    font-size: 18px;
+    margin: 0;
+    color: #7d7d7d;
+  }
+
+  .field-items .text {
+
+    &.text-full {
+
+      .left-part {
+        width: 580px !important;
+      }
+
+      .right-part {
+        width: 350px;
+      }
+    }
+
+    &.text-image {
+
+      .left-part {
+        width: 520px !important;
+        padding-right: 40px;
+      }
+
+      .right-part {
+        display: inline-block;
+        width: 410px;
+      }
+    }
+  }
+
+  .text {
+    text-align: left;
+
+    &.text-full {
+
+      .left-part {
+        width: 680px !important;
+      }
+
+      .right-part {
+        width: 260px;
+      }
+    }
+
+    &.text-slider {
+      padding-bottom: 30px;
+
+      .left-part {
+        width: 415px !important;
+        padding-right: 40px;
+      }
+
+      .right-part {
+        display: inline-block;
+        width: 550px;
+
+        .flexslider .slides > li {
+          max-height: 340px;
+        }
+      }
+    }
+  }
+}

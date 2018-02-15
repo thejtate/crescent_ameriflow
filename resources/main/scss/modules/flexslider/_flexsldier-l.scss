@@ -1,0 +1,10 @@
+.flexslider .flex-prev, .flexslider .flex-next {
+  opacity: 0;
+  visibility: hidden;
+  @include transition(all .3s);
+}
+
+.flexslider:hover .flex-prev, .flexslider:hover .flex-next {
+  opacity: 1;
+  visibility: visible;
+}

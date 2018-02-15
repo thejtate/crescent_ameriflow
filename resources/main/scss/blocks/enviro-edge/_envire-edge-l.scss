@@ -1,0 +1,53 @@
+.b-envire-edge {
+  padding-left: 43%;
+
+  .site-container {
+    width: 594px;
+  }
+
+  .logo {
+    margin-right: 70px;
+  }
+
+  .hd {
+    margin-bottom: 34px;
+  }
+
+  .text {
+    letter-spacing: 1px;
+  }
+
+  p {
+    margin: 0 0 20px;
+  }
+
+  .link {
+    position: absolute;
+    left: 21%;
+    bottom: 88px;
+    font-family: $museo-700;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    margin-top: -12px;
+
+    &:hover:before {
+      left: -24px;
+    }
+
+    &:after {
+      @include oneline-sprite-box($icons, link-img);
+      @include pseudo-block($left: -78px, $top: -226px);
+    }
+
+    &:before {
+      @include transition(left .3s);
+      @include pseudo-block($left: -28px, $top: 50%);
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-left: 21px solid #fff;
+      margin-top: -12px;
+    }
+  }
+}
